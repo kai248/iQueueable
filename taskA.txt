@@ -1,1 +1,3 @@
 2. For the queue, you could use a link list implementation. As for the stack, you could use a recursive method where there will just be using the top pointer of the stack. Witht that top pointer alone, you will be able to push elements in, pop elements out as well as retrieve the entire stack.
+
+3. The singleton pattern could be used as only one instance of a queue/stack will be needed for the most part. Also, the strategy pattern could be used as abstraction could be applied to certain methods of the classes as they have the similar/same functionalities such as the getQueue() method or the isEmpty() and isFull() methods.
